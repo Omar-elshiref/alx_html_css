@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --premim-color : #C271FF;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   z-index: 2;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+header nav img {
+    width: 150px;
+    height: 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+header ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+main section  {
+    position: relative;
+    bottom: 60px;
+    height: 280px;
+}
+
+main section .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main section .hero h1 {
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+main section .hero .only {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main section .hero button {
+    background-color: var(--premim-color);
+    padding: 10px 15px;
+    border-color: transparent;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease;
+}
+
+main section .hero button:active {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+main section .pros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    gap: 80px;
+
+}
+
+main section .pros h2 {
+    margin-top: 40px;
+    color: white;
+    font-size: 32px;
+}
+
+main section .pros h2 span {
+    color: var(--premim-color);
+    font-weight: bold;
+}
+
+main section .pros1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130px;
+    justify-content: center;
+}
+main section .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+main section .person img {
+    border-radius: 50%;
+
+}
+
+main section .person h3 {
+    color: white;
+    font-weight: bold;
+}
+
+
+main section .person p {
+    color: #ffffffc7;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    width: 120px;
+    line-height: 1.5;
+
+
+}
+
