@@ -208,3 +208,266 @@ main .section1 .person p {
 /* =============================================================================================================================== */
 
 
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.section3 h2 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #071629;
+    
+
+}
+
+.section3 h2 span{
+    color: var(--premim-color);
+    font-weight: bold;
+}
+
+.section3 .smiles {
+    display: flex;
+    gap: 25px;
+}
+
+.section3 .smiles .one  {
+    position: relative;
+}
+
+.section3 .smiles .one::after {
+    content: url(/css_advanced/images/play.png);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 185px;
+    right: 50px;
+    z-index: 5;
+}
+
+.section3 .smiles .two  {
+    position: relative;
+}
+
+.section3 .smiles .two::after {
+    content: url(/css_advanced/images/play.png);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 185px;
+    right: 50px;
+    z-index: 5;
+}
+
+.section3 .smiles .three  {
+    position: relative;
+}
+
+.section3 .smiles .three::after {
+    content: url(/css_advanced/images/play.png);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 185px;
+    right: 50px;
+    z-index: 5;
+}
+
+.section3 .smiles .four  {
+    position: relative;
+}
+
+.section3 .smiles .four::after {
+    content: url(/css_advanced/images/play.png);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 185px;
+    right: 50px;
+    z-index: 5;
+}
+
+.section3 .smiles h3 {
+    font-weight: bold;
+    margin: 15px 10px;
+
+}
+
+.section3 .smiles p {
+    color: rgba(7, 22, 41, 50.16%);
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.5;
+
+}
+
+.section3 .smiles .namerating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.section3 .smiles .namerating img {
+    width: 25px;
+
+}
+
+.section3 .smiles .namerating h4{
+    color: var(--premim-color);
+    font-size: 14px;
+
+}
+
+.section3 .smiles .rating {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    margin: 10px;
+    margin-top: -10px;
+}
+.section3 .smiles .rating img {
+    height:  20px;
+    width: 100px;
+}
+.section3 .smiles .rating p{
+   color: var(--premim-color);
+   font-size: 14px;
+}
+
+
+/* =============================================================================================================================== */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: rgba(7, 22, 41, 100%);
+    color: white;
+
+}
+
+.section4 h2 {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.section4 h2 span{
+    color: var(--premim-color);
+    font-weight: bold;
+}
+.section4 .membership {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section4 .member1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    
+}
+
+.section4 .member1 h3 {
+    font-size: 18px;
+    margin: 25px 0;
+
+}
+.section4 .member1 p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff8a;
+}
+
+.section4 .member2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.section4 .member2 h3 {
+    font-size: 18px;
+    margin: 25px 0;
+
+}
+
+.section4 .member2 p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff8a;
+}
+.section4 .member3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.section4 .member3 h3 {
+    font-size: 18px;
+    margin: 25px 0;
+
+}
+
+.section4 .member3 p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff8a;
+}
+
+.section4 .member4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.section4 .member4 h3 {
+    font-size: 18px;
+    margin: 25px 0;
+
+}
+.section4 .member4 p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff8a;
+}
+
+.section4 button {
+    background-color: var(--premim-color);
+    padding: 15px;
+    border-color: transparent;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease;
+}
+
+.section4 button:active {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* =============================================================================================================================== */
+
